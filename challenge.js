@@ -6,7 +6,6 @@ const kalimat2 = 'gunung bromo tak akan mampu menggambarkan besarnya cintaku pad
 
 function changeWord(selectedText, changedText, text) {
     // Menggunakan metode replace untuk mengganti kata
-    //   const newText = text.replace(new RegExp(selectedText, 'g'), changedText);
     const newText = text.replace(selectedText, changedText);
     // mengembalikan nilai newText
     return newText;
@@ -33,7 +32,7 @@ const checkTypeNumber = (givenNumber) => {
     }
 }
 
-//EXpected Result
+//Expected Result
 console.log(checkTypeNumber(10))
 console.log(checkTypeNumber(3))
 console.log(checkTypeNumber("3")) //Output yang keluar => "error : Invalid data type" 
